@@ -4,7 +4,54 @@
 fonts available
 
 font-family: 'Open Sans Condensed', sans-serif;
-font-family: 'PT Serif', serif;*/
+font-family: 'PT Serif', serif;   */
+
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin:0px;
+	padding: 0px;	
+}
+
+img {
+	max-width: 100%;
+}
+
+#nameHeader{
+	width: 100%;
+	display: inline-flex;
+}
+
+#logo-container{
+	width: 20%;
+	margin: 0%;
+}
+
+ .logo {
+	width: 150px;
+	height: 150px;
+	vertical-align: middle;
+}
+
+#headerText {
+	width: 80%;
+	margin: 0%;
+	text-align: left; 
+}
+
+.name {
+	margin-bottom: 0%;
+	text-align: right;
+	margin-right: 10px;	
+}
+
+.job{
+	margin-top: 0%;
+	text-align: right;
+	margin-right: 10px;
+}
+
+
+
 
 
 /* mobile */

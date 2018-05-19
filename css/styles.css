@@ -16,32 +16,37 @@ img {
 	max-width: 100%;
 }
 
+
+
 #nameHeader{
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
+	background-color: grey;
+	height: 150px;
 
 	
 }
 
 #logo-container{
-	width: 60%;
+	width: 40%;
 	margin: 0%;
-	margin-right: 20%;
+	margin-right: 0%;
+	height: 100px;
 }
 
  .logo {
-	min-width: 150px;
-	min-height: 150px;
+	min-width: 100px;
+	min-height: 100px;
 	vertical-align: middle;
 }
 
 #headerText {
-	width: 20%;
+	width: 60%;
 	margin: 0%;
 	text-align: left; 
 	min-width: 100px;
-	height: 196px;
+	height: 150px;
 	display: flex;
 	flex-wrap:wrap;
 
@@ -57,24 +62,24 @@ img {
 .name, .job {
 	display: block;
 	text-align: left;
-	
 	height: 50%;
 	width: 100%;
 	margin-right: 0%;
 	margin-left: 0%;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	font-size: 200%;
+	font-size: 175%;
 	
 	
 }
 
 .name {		
-	line-height: 150px;	
+	line-height: 130px;	
 }
 
 .job {
 	position: relative;
+	line-height: 0px;
 	
 }
 
@@ -93,6 +98,8 @@ img {
 	display: flex;
 }
 
+
+
 .work-item {
 	min-height: 300px;
 	width: 100%;
@@ -106,9 +113,41 @@ img {
 
 /* mobile width @ 320 & down */
 
-@media screen and (max-width: 320px) {
-	
+@media screen and (max-width: 321px) {
+
+	#nameHeader{
+		background-color: beige;
+		height: 100px;
+	}
+
+	#headerText{
+		height: 100px;
+		font-size: 90%;
+	}
+
+	.logo{
+		width: 100px;
+		height: 100px;
+	}
+
+	.name{
+		line-height: 80px;
+	}
+
+	.job {
+		line-height: 40px;
+	}
+
+	.work-item-photo {
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 }
+	
+
+
 
 
 

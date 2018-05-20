@@ -29,7 +29,7 @@ img {
 }
 
 #logo-container{
-	width: 40%;
+	width: 50%;
 	margin: 0%;
 	margin-right: 0%;
 	height: 100px;
@@ -42,7 +42,7 @@ img {
 }
 
 #headerText {
-	width: 60%;
+	width: 50%;
 	margin: 0%;
 	text-align: left; 
 	min-width: 100px;
@@ -111,9 +111,9 @@ img {
 }
 
 
-/* mobile width @ 320 & down */
+/* mobile width @ 450 & down */
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 699px) {
 
 	#nameHeader{
 		background-color: beige;
@@ -144,6 +144,15 @@ img {
 		margin-right: auto;
 	}
 
+	.work-header {
+		margin-left: 5px;
+	}
+
+	.work-item-text-container {
+		text-align: center;
+	}
+
+
 }
 	
 
@@ -151,9 +160,66 @@ img {
 
 
 
-/* tablet width @ 450 & up */
+/* tablet width @ 700 & up */
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 700px) {
+	#nameHeader{
+		background-color: red;
+		height: 100px;
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+
+	#headerText{
+		height: 100px;
+		font-size: 100%;
+		width: 25%;
+	}
+	
+	#logo-container{
+		width: 75%;
+	}
+
+
+	.logo{
+		width: 120px;
+		height: 120px;
+	}
+
+	.name{
+		line-height: 80px;
+	}
+
+	.job {
+		line-height: 40px;
+	}
+
+	.work-header {
+		display: block;
+
+	}
+
+	.work-item {
+		width: 33%
+	}
+
+	.work-item-photo {
+		display: flex;
+		
+	}
+
+	.work-header {
+		margin-left: 5px;
+	}
+
+	.work-item-container {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+
+}
 
 
 /* desktop 750 & up */ 
